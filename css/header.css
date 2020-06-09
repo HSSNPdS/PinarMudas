@@ -1,0 +1,73 @@
+/* cabecalho */
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #360000;
+}
+.cabecalho form {
+    width: 30%;
+    float: right;
+}
+.cabecalho input[type="text"] {
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0 0 10px; /*SE SD ID IE*/
+}
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: #848484;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0; /*SE SD ID IE*/
+}
+.cabecalho h4{
+    flex: 1;
+    float: left;
+    font-size: 80px;
+    color: #ffff99;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo a{
+    display: flex;
+    width: 64px;
+    height: 64px;
+    float: left;
+    background: url(../img/logo.png) no-repeat;
+    background-size: contain;
+    font-size: 0; 
+}
+.menu {
+    width: 100%;
+    float: left;
+    background-color: #313131;
+    padding: 18px 8%;
+    margin-bottom: 20px;
+}
+.menu ul a:hover{
+    color: red;
+}
+.menu li a{
+    color: white;
+    margin-right: 25px;
+}
+.menu li {
+    float: left;
+}
+.social-icons {
+    float: right;
+}
+.social-icons a{
+    color: white;
+    float: left;
+    margin-left: 12px;
+}
+.btn-facebook:hover{color: #3B5998;}
+.btn-twitter:hover{color: #65A5D6;}
+.btn-google:hover{color: #D73D32;}
