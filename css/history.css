@@ -5,6 +5,17 @@
     padding: 20px 8%;
 }
 .sobre img {
-    width: 50%;
+    width: 40%;
+    height: 40%;
     margin: 0 15px 15px 0;
+    float: left;
+}
+.rodape {
+    width: 100%;
+    float: left;
+    background-color: #313131;
+    padding: 20px 8%;
+}
+.rodape p {
+    color: #ffffff;
 }

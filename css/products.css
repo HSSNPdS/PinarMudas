@@ -36,3 +36,12 @@
     font-size: 30px;
     color: gold;
 }
+.rodape {
+    width: 100%;
+    float: left;
+    background-color: #313131;
+    padding: 20px 8%;
+}
+.rodape p {
+    color: #ffffff;
+}
