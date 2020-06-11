@@ -1,0 +1,10 @@
+.principal {
+    width: 100%;
+    background-color: #e0e0e0;
+    float: left;
+    padding: 20px 8%;
+}
+.sobre img {
+    width: 50%;
+    margin: 0 15px 15px 0;
+}
