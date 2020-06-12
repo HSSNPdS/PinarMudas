@@ -4,11 +4,17 @@
     float: left;
     padding: 20px 8%;
 }
-.sobre img {
+.hist img {
     width: 40%;
     height: 40%;
     margin: 0 15px 15px 0;
     float: left;
+}
+.hist p{
+    text-align: justify;
+}
+.hist h2{
+    margin: 20px 0;
 }
 .rodape {
     width: 100%;
